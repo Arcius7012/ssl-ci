@@ -1,0 +1,6 @@
+#!/bin/bash
+commitRegex='^(ATM-[0-9]+|Merge)'
+if ! grep -qE "$commitRegex" "$1"; then
+    echo "Чтобы закоммитить, нужно указать номер задачи из Джира в формате ATM-"
+    exit 1
+fi
