@@ -1,0 +1,4 @@
+#!/bin/sh
+echo "Start hooks before commit to unpack erf, epf and cfe"
+./precommit.cmd
+./garbage_cleaning.cmd
