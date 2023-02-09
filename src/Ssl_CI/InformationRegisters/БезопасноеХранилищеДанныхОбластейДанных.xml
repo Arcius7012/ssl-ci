@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
+	<InformationRegister uuid="6444d182-6609-41f1-a477-2b6630997250">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.БезопасноеХранилищеДанныхОбластейДанных" category="Record">
+				<xr:TypeId>31edf281-4608-41fe-b6dc-ada5440f62a5</xr:TypeId>
+				<xr:ValueId>b04cbfa3-92b7-47d7-8200-48b453528ee8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.БезопасноеХранилищеДанныхОбластейДанных" category="Manager">
+				<xr:TypeId>60d15e9f-b2b1-44cd-8a20-7ce3bf6d8ad5</xr:TypeId>
+				<xr:ValueId>1da8c69f-5e7c-489b-8574-b5505a95941a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.БезопасноеХранилищеДанныхОбластейДанных" category="Selection">
+				<xr:TypeId>a3e28128-0618-48bb-836b-c9c134be57f3</xr:TypeId>
+				<xr:ValueId>44349440-84ef-4454-becd-5cc4b5ac8585</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.БезопасноеХранилищеДанныхОбластейДанных" category="List">
+				<xr:TypeId>902c227b-7781-4cd5-afc3-87870c75e10d</xr:TypeId>
+				<xr:ValueId>91b8246d-6642-4097-9050-b511e4c0a1e4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.БезопасноеХранилищеДанныхОбластейДанных" category="RecordSet">
+				<xr:TypeId>a041e7f3-8943-4f80-a295-5631aefe65ee</xr:TypeId>
+				<xr:ValueId>294e8a0d-f2e9-467e-a858-823a2c751319</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.БезопасноеХранилищеДанныхОбластейДанных" category="RecordKey">
+				<xr:TypeId>793e4873-6a94-463a-b989-b88aa39bfd1c</xr:TypeId>
+				<xr:ValueId>ff0115c5-750d-4149-84ed-0b534b2abf37</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.БезопасноеХранилищеДанныхОбластейДанных" category="RecordManager">
+				<xr:TypeId>72ebcc4b-f79a-4f2a-8b76-9f9a99988b25</xr:TypeId>
+				<xr:ValueId>82023007-d6fb-4d10-a307-bf087d650c41</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БезопасноеХранилищеДанныхОбластейДанных</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>8842c0e3-2e20-4f37-ae7c-f5449004994b</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

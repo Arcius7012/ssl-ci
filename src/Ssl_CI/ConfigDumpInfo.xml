@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.14">
+	<ConfigVersions>
+		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки" id="39b179d5-4148-4a70-9dac-ad3ee44f78ed" configVersion="f5b987b108638e9ec5cf1a9c0a56e062fa590537">
+			<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Attribute.SslCI_ДатаКоммита" id="0fe80f88-5858-4197-bc19-7cd16ec3aa12"/>
+			<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Attribute.ИмяОбъекта" id="11320d23-3870-40fb-a406-40cd4a8efda8"/>
+			<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.TabularSection.Команды" id="1591401e-8052-49ae-abf3-3411fb3240e4"/>
+			<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Attribute.SslCI_НеОбновлятьАвтоматически" id="177925fb-ed9c-4c3e-9846-c90776a8bbd4"/>
+			<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Attribute.ИспользоватьДляФормыОбъекта" id="29491bd4-64cb-49ad-9578-2e6649a2cbf8"/>
+			<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Attribute.SslCI_ИДКоммита" id="30efabe7-3f5e-4f48-92c5-3c9748f19ad8"/>
+			<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Command.SslCI_ПереключитьВетку" id="354046ce-e515-4350-b4a7-30f08d9c71b4"/>
+			<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Command.SslCI_ПереключитьВеткуФайла" id="3a628c05-9eeb-4a40-ab9a-fb6f1ed25867"/>
+			<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Attribute.Информация" id="3bffebed-3c9c-48ab-af13-63ee153f8645"/>
+			<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Attribute.SslCI_ИмяВетки" id="415adc6a-4346-42b8-b51f-9ab21845d64c"/>
+			<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Attribute.ИмяФайла" id="4dba8cb4-e4a0-4405-a4ad-e22249f48da1"/>
+			<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Attribute.Ответственный" id="55c3ec0a-9c17-4105-bb2c-d7c3fdfd2f93"/>
+			<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Attribute.Публикация" id="66017a0e-322a-45a6-8ea5-7834a1d7944f"/>
+			<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Command.SslCI_АктуализацияСправочника" id="7c7d92d5-97b3-430e-879d-07cfcd34eb3a"/>
+			<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Attribute.Версия" id="7edd9c61-7ff2-460d-84c8-b06c8da4f31c"/>
+			<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Attribute.SslCI_АдресВРепозитории" id="86c15f47-3ee0-4e73-8708-9811b172478e"/>
+			<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Attribute.Вид" id="8da83ca2-f74f-42a1-aafe-5d69c9bfe348"/>
+			<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Attribute.SslCI_СообщениеКоммита" id="9fd8dcc0-4211-4931-bb45-daa0a060f2a0"/>
+			<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Attribute.Комментарий" id="a10c768d-02d4-43f9-9343-188b5720af38"/>
+			<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Command.SslCI_НастройкаРепозитория" id="ae72a5c1-b168-4300-9134-975a010657e7"/>
+			<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Command.SslCI_ИсторияКоммитов" id="c77e3361-22e1-4ab2-acc4-62523ea6292d"/>
+			<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Attribute.SslCI_АвторКоммита" id="d99073ea-7754-4773-91c3-961dc24b8856"/>
+			<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.TabularSection.Команды.Attribute.Представление" id="e66566d3-b22b-447c-89e7-f3cebd3b4f22"/>
+			<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Command.SslCI_ОбновитьФайл" id="e85552b8-7b22-4c0f-b285-b05c47fe97b2"/>
+			<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Attribute.ИспользоватьДляФормыСписка" id="f34a18f3-0a99-4219-b550-39d2881ab251"/>
+		</Metadata>
+		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Command.SslCI_АктуализацияСправочника.CommandModule" id="7c7d92d5-97b3-430e-879d-07cfcd34eb3a.2" configVersion="cba14109e17caab92de4d0ab0fded3aa156dd04f"/>
+		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Command.SslCI_ИсторияКоммитов.CommandModule" id="c77e3361-22e1-4ab2-acc4-62523ea6292d.2" configVersion="5440a229ad6277a628be6588878a6f5468108017"/>
+		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Command.SslCI_НастройкаРепозитория.CommandModule" id="ae72a5c1-b168-4300-9134-975a010657e7.2" configVersion="7ee43a2574c48132993bd6328bc19a70a4f95bb9"/>
+		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Command.SslCI_ОбновитьФайл.CommandModule" id="e85552b8-7b22-4c0f-b285-b05c47fe97b2.2" configVersion="403ff782e6eeedd14b786bd75085a0dd5dfa58ba"/>
+		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Command.SslCI_ПереключитьВетку.CommandModule" id="354046ce-e515-4350-b4a7-30f08d9c71b4.2" configVersion="a3f599437fde9e585134ab5466a4ffd528f959ef"/>
+		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Command.SslCI_ПереключитьВеткуФайла.CommandModule" id="3a628c05-9eeb-4a40-ab9a-fb6f1ed25867.2" configVersion="0cf26c309f4bcfd4c4063b15e71bead4977c6dcd"/>
+		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.SslCI_ВыборФайлаИзРепозитория" id="91ac5fdd-1cb9-42f5-b76b-9a2398f10a68" configVersion="42c3be9d2904cf9a0c21c7a3e60081a9dc733d71"/>
+		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.SslCI_ВыборФайлаИзРепозитория.Form" id="91ac5fdd-1cb9-42f5-b76b-9a2398f10a68.0" configVersion="1931505369a435141c88599c40710308c14de512"/>
+		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.SslCI_ИсторияКоммитов" id="67b3e58b-f794-4e32-956f-2c90ba5fa79b" configVersion="e820fccdd2a1eee35bf30c35d84a55aa531f2356"/>
+		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.SslCI_ИсторияКоммитов.Form" id="67b3e58b-f794-4e32-956f-2c90ba5fa79b.0" configVersion="0a8856d6acfe6aa3379fdb2ef99b90b7dec01d31"/>
+		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.SslCI_НастройкаВнешнегоРепозитория" id="b365f736-f589-4783-9e57-3f53a7ed7239" configVersion="f03f76e134fcb7fe99a3f3ef23993acb7b3c7cd9"/>
+		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.SslCI_НастройкаВнешнегоРепозитория.Form" id="b365f736-f589-4783-9e57-3f53a7ed7239.0" configVersion="a8bead4e89661cb39fead0c8f18b65807419ab79"/>
+		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.SslCI_ОписаниеОбновления" id="4906a70b-f015-478f-bfe1-a36544a1c584" configVersion="e3aab3c8bdab80890faa7ec5f7f79a6872e95860"/>
+		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.SslCI_ОписаниеОбновления.Form" id="4906a70b-f015-478f-bfe1-a36544a1c584.0" configVersion="cedf4f32ebd631fa5d103195192dbbbfd7ba0e81"/>
+		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.SslCI_ПереключениеВетки" id="71595c18-a0ea-4671-ab2a-ebc70ca64190" configVersion="7eadae355bd06c2f10d2cf38195061ea41abfc52"/>
+		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.SslCI_ПереключениеВетки.Form" id="71595c18-a0ea-4671-ab2a-ebc70ca64190.0" configVersion="1502f42d750c5606a2e195798923d2fdaa9d6d1b"/>
+		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.ФормаСписка" id="6b88dbbc-387b-463a-9ed6-961e8d0cf29e" configVersion="b3e348e28803e107f176761af942b21c365e8059"/>
+		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.ФормаСписка.Form" id="6b88dbbc-387b-463a-9ed6-961e8d0cf29e.0" configVersion="d370db89162d255f5662532307a9e7578c76782d"/>
+		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.ФормаЭлемента" id="f38d021e-f4c2-40e1-b922-8040628bacac" configVersion="48ee41d9ecd794568afb49ed1967f4fe78ddabe0"/>
+		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.ФормаЭлемента.Form" id="f38d021e-f4c2-40e1-b922-8040628bacac.0" configVersion="70803346195326f948655ba556e95c1695c68080"/>
+		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Template.SslCI_ОписаниеОбновления" id="364810b2-9d1c-42bd-a9b0-6339e0eb11f5" configVersion="63d29f03a0609b0df5f8323a6cd47ab6895a5bf8"/>
+		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Template.SslCI_ОписаниеОбновления.Template" id="364810b2-9d1c-42bd-a9b0-6339e0eb11f5.0" configVersion="04081a7f659314d5f773e58236053096f0941346"/>
+		<Metadata name="Catalog.Пользователи" id="f0f63053-68f8-468e-92b5-912a7ee76c5d" configVersion="658d21804392d1237828ed6a24b1603ea28960bc"/>
+		<Metadata name="CommonModule.SslCI_НастройкаИнтеграцииСГитомПовтИсп" id="5609f21b-3da0-4cf6-88f2-898a7b4f1ed6" configVersion="800bb2ab2aa8c204fb81c819c79343c22a13e193"/>
+		<Metadata name="CommonModule.SslCI_НастройкаИнтеграцииСГитомПовтИсп.Module" id="5609f21b-3da0-4cf6-88f2-898a7b4f1ed6.0" configVersion="40dc285d0b00cc887d0efc5af9afc4516ee3171f"/>
+		<Metadata name="CommonModule.SslCI_РаботаСГитом" id="620e064c-16a6-468e-9311-f65800cb63f0" configVersion="99d09ecd55adce1ac17ba66d386aaa51b6cb5732"/>
+		<Metadata name="CommonModule.SslCI_РаботаСГитом.Module" id="620e064c-16a6-468e-9311-f65800cb63f0.0" configVersion="ede50705a5667ab169561be78fa54fdc2411e4ad"/>
+		<Metadata name="CommonModule.SslCI_СлужебныйВызовСервера" id="e2cbf8e1-d2b3-401f-8263-ba68a6698e74" configVersion="16c52b05e35062d40326afba256d1829d1fae47d"/>
+		<Metadata name="CommonModule.SslCI_СлужебныйВызовСервера.Module" id="e2cbf8e1-d2b3-401f-8263-ba68a6698e74.0" configVersion="70b9a87f5b7760d15df8d893e6594a376b73eaea"/>
+		<Metadata name="CommonModule.ОбщегоНазначения" id="ca85108d-1e20-4af7-8e94-5e6bf4710ced" configVersion="04fc97aec7418aeba3ccf66583a6178d803f8846"/>
+		<Metadata name="CommonModule.ОбщегоНазначения.Module" id="ca85108d-1e20-4af7-8e94-5e6bf4710ced.0" configVersion="bc4c61b7f2e39fd3822fde3d040682f3997e2790"/>
+		<Metadata name="CommonPicture.SslCI_Гит" id="5f3413c9-94a4-47c8-8062-eb9fa458a2ad" configVersion="8016230958d6effbd05944a38a9d0e8157a64e1e"/>
+		<Metadata name="CommonPicture.SslCI_Гит.Picture" id="5f3413c9-94a4-47c8-8062-eb9fa458a2ad.0" configVersion="565d3bf420c2e7b1e2ff3a05dd684a0c19a70886"/>
+		<Metadata name="CommonPicture.SslCI_Гитлаб" id="016c2424-2afc-452c-8b69-7525775835a8" configVersion="f23620e607c26376f11dda167de6f60bcb59a132"/>
+		<Metadata name="CommonPicture.SslCI_Гитлаб.Picture" id="016c2424-2afc-452c-8b69-7525775835a8.0" configVersion="15c182d5fde7bac2c02045004f594f7b4e3e2197"/>
+		<Metadata name="CommonPicture.SslCI_Деплой" id="d7cddd20-8bb6-4bcf-ab57-5789e74c556a" configVersion="556c0da83e720446900eeb8620bb409a182f1235"/>
+		<Metadata name="CommonPicture.SslCI_Деплой.Picture" id="d7cddd20-8bb6-4bcf-ab57-5789e74c556a.0" configVersion="4ec1a2a81030a479c03afc9cf3b6a45b17b3bd75"/>
+		<Metadata name="CommonPicture.SslCI_Коммит" id="cc183101-265c-4bfc-9464-d685a2387696" configVersion="558cecc0314b753159e0e0b4a61ac0e12ccb0de7"/>
+		<Metadata name="CommonPicture.SslCI_Коммит.Picture" id="cc183101-265c-4bfc-9464-d685a2387696.0" configVersion="e228aa650080a6a6683c4cf8538259aa5d9f4848"/>
+		<Metadata name="CommonPicture.SslCI_ПуллРеквест" id="04267a24-24db-40ab-899d-926f41b46fed" configVersion="839b918e256e783503bbe3d395c62390460a9f98"/>
+		<Metadata name="CommonPicture.SslCI_ПуллРеквест.Picture" id="04267a24-24db-40ab-899d-926f41b46fed.0" configVersion="400fc5699f6f8b10d14257fcf539a91e49dbd28a"/>
+		<Metadata name="CommonPicture.SslCI_Репозиторий" id="6bcda136-d035-47aa-872a-55b3bca8f728" configVersion="8f92873ef1ff86885699c0bdebbf3a1d57ff9cb7"/>
+		<Metadata name="CommonPicture.SslCI_Репозиторий.Picture" id="6bcda136-d035-47aa-872a-55b3bca8f728.0" configVersion="07ffec9c4df748d342c29123f18846f4ff572ca9"/>
+		<Metadata name="CommonPicture.SslCI_Сравнение" id="75cce602-8308-4830-8a4b-da5abdc977be" configVersion="b815d67ead99c002eff489c5f03ebc6fbe7646d1"/>
+		<Metadata name="CommonPicture.SslCI_Сравнение.Picture" id="75cce602-8308-4830-8a4b-da5abdc977be.0" configVersion="f987f41e52e4b8990773763704fc706ebdc22fca"/>
+		<Metadata name="CommonPicture.SslCI_Форк" id="ca2a9499-759a-45ab-a8a1-adef879198b1" configVersion="a573f155bc2ca37f306d89cb218d63c7e048bb11"/>
+		<Metadata name="CommonPicture.SslCI_Форк.Picture" id="ca2a9499-759a-45ab-a8a1-adef879198b1.0" configVersion="cdc9a4071f2f1180ab12e7aaf4a25430151beb91"/>
+		<Metadata name="CommonPicture.ОбновитьФайлИзФайлаНаДиске" id="416bf25b-f94c-4888-873f-3fceec6f8229" configVersion="4a7502a3c01b3d724372f09aa5e68b4c5afd9d00"/>
+		<Metadata name="CommonPicture.ПиктограммыЭлементов" id="98b6629f-22cf-486d-8859-54a0d9fc218f" configVersion="9ac133a76a2c655679efdf2f8ae6094c38ac8869"/>
+		<Metadata name="Configuration.Ssl_CI" id="9be5f451-1d73-4f98-9cc1-8f8a77d9e328" configVersion="82ec97a78b928b531fa6eb498e2d6852a1671fc0"/>
+		<Metadata name="Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок" id="fd303a5e-4674-4ded-ad83-0ce2f6040689" configVersion="55c37bbdb132cbc5e1594b6c83e453823a98ce1c">
+			<Metadata name="Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок.EnumValue.Отключена" id="a121ec78-bfaf-4009-ab32-ee0b50327c8e"/>
+			<Metadata name="Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок.EnumValue.РежимОтладки" id="b36095d8-c37e-473d-b9a1-2451da193e7d"/>
+			<Metadata name="Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок.EnumValue.Используется" id="f173fcb7-0abb-4968-adee-0a7b55d67b0c"/>
+		</Metadata>
+		<Metadata name="Enum.ВидыДополнительныхОтчетовИОбработок" id="a7249410-3d56-4667-989c-1f078a6d9fcd" configVersion="25ab495de27860cb859c4c81b9d3fa46da61c58f">
+			<Metadata name="Enum.ВидыДополнительныхОтчетовИОбработок.EnumValue.СозданиеСвязанныхОбъектов" id="32866fbe-f76d-442e-8341-a3c5ebcc004b"/>
+			<Metadata name="Enum.ВидыДополнительныхОтчетовИОбработок.EnumValue.ДополнительныйОтчет" id="af3995a2-2020-416b-bc19-62ee353fc447"/>
+			<Metadata name="Enum.ВидыДополнительныхОтчетовИОбработок.EnumValue.Отчет" id="b92c9815-86d9-458e-a6b3-dd593b67006b"/>
+			<Metadata name="Enum.ВидыДополнительныхОтчетовИОбработок.EnumValue.ЗаполнениеОбъекта" id="ba39c8c1-0ec9-4b54-9d36-0d5d3dafced6"/>
+			<Metadata name="Enum.ВидыДополнительныхОтчетовИОбработок.EnumValue.ПечатнаяФорма" id="e0ded4dd-0404-47c9-8bf8-28498c1c20db"/>
+			<Metadata name="Enum.ВидыДополнительныхОтчетовИОбработок.EnumValue.ДополнительнаяОбработка" id="faa3fb89-975b-41ef-9552-2010b29b4e79"/>
+		</Metadata>
+		<Metadata name="Enum.СпособыВызоваДополнительныхОбработок" id="787b3548-220d-4867-ac28-68951268e1e7" configVersion="46189a798cd9f9727b6097466985ac1f8575e480">
+			<Metadata name="Enum.СпособыВызоваДополнительныхОбработок.EnumValue.ОткрытиеФормы" id="1f342760-5ecc-4b7a-bfb8-02b7e22df9ed"/>
+			<Metadata name="Enum.СпособыВызоваДополнительныхОбработок.EnumValue.ЗаполнениеФормы" id="6300e6b4-9ff0-4aaf-bd2f-4ce75bd4cfd7"/>
+			<Metadata name="Enum.СпособыВызоваДополнительныхОбработок.EnumValue.ВызовСерверногоМетода" id="635c60d3-47ec-4693-9484-c3d7de81a3e2"/>
+			<Metadata name="Enum.СпособыВызоваДополнительныхОбработок.EnumValue.СценарийВБезопасномРежиме" id="80ff0b27-2237-4bee-a12a-1de0c453da35"/>
+			<Metadata name="Enum.СпособыВызоваДополнительныхОбработок.EnumValue.ЗагрузкаДанныхИзФайла" id="9f758ae7-1589-4e68-8018-5ec9441dd268"/>
+			<Metadata name="Enum.СпособыВызоваДополнительныхОбработок.EnumValue.ВызовКлиентскогоМетода" id="dea6f434-9c79-4f1d-96e2-13d52dc0ad0c"/>
+		</Metadata>
+		<Metadata name="InformationRegister.БезопасноеХранилищеДанных" id="9b396747-303b-45df-83ea-f959f97793d2" configVersion="b5d4e1d18c10f4339d5b0e27fbc565f2e0f8021a"/>
+		<Metadata name="InformationRegister.БезопасноеХранилищеДанныхОбластейДанных" id="6444d182-6609-41f1-a477-2b6630997250" configVersion="69785c3bf704625da9976b3add36f8b4ee3d0f0b"/>
+		<Metadata name="Language.Русский" id="1cb21814-8c1d-4844-a6fe-1b9ac4098126" configVersion="44cae484f65814c4060f5319c8e6224fedbd0111"/>
+		<Metadata name="StyleItem.ПоясняющийОшибкуТекст" id="648d596a-c4f3-4a06-b594-13ab7a389051" configVersion="7f58984cb1ae37a19bc2e493ac1edd9b33eab5dd"/>
+		<Metadata name="StyleItem.ПоясняющийТекст" id="74f44f27-7175-45df-a019-9a45662153dc" configVersion="2fb8523d938e07311aeddeaf4c34b802b18a93ef"/>
+		<Metadata name="StyleItem.РезультатУспехЦвет" id="49f9fe5a-d2e8-45cc-9b87-506a35db7af1" configVersion="f3555b87ae822f365b2e414a2cf276844e753fe7"/>
+		<Metadata name="Subsystem.SslCI_РаботаСГитом" id="6f753ed4-9963-4b8b-99e9-c81a70a86293" configVersion="b94fb38f842b252da0559134f0487fa7b741680b"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

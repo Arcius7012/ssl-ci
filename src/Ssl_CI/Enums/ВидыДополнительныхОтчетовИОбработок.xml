@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
+	<Enum uuid="a7249410-3d56-4667-989c-1f078a6d9fcd">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыДополнительныхОтчетовИОбработок" category="Ref">
+				<xr:TypeId>53b3f144-b922-4c16-8213-82bf5001a950</xr:TypeId>
+				<xr:ValueId>774ffc92-9c51-4e09-a61f-fa255c25af3d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыДополнительныхОтчетовИОбработок" category="Manager">
+				<xr:TypeId>d6668ebd-5e16-4ad2-9aaa-6f6e88a10596</xr:TypeId>
+				<xr:ValueId>42cd4d5a-c042-4d0c-a2bc-270eac896f70</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыДополнительныхОтчетовИОбработок" category="List">
+				<xr:TypeId>f4872566-5b88-41fe-a3dd-e2d951e96d28</xr:TypeId>
+				<xr:ValueId>8f4ac49c-fe92-4982-bb13-21b572bf3b09</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыДополнительныхОтчетовИОбработок</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>752dc569-cf84-42d7-911d-49d455f7214e</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="faa3fb89-975b-41ef-9552-2010b29b4e79">
+				<InternalInfo/>
+				<Properties>
+					<Name>ДополнительнаяОбработка</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>fecab2b9-27e1-44d6-9082-79c3569b7477</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="af3995a2-2020-416b-bc19-62ee353fc447">
+				<InternalInfo/>
+				<Properties>
+					<Name>ДополнительныйОтчет</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>07ae092f-8517-47b7-b54c-5dbcb6506929</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ba39c8c1-0ec9-4b54-9d36-0d5d3dafced6">
+				<InternalInfo/>
+				<Properties>
+					<Name>ЗаполнениеОбъекта</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>db4c25bb-d199-43ec-833d-82972de04a41</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b92c9815-86d9-458e-a6b3-dd593b67006b">
+				<InternalInfo/>
+				<Properties>
+					<Name>Отчет</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>43d19685-0794-41f2-9171-bf565133718d</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e0ded4dd-0404-47c9-8bf8-28498c1c20db">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПечатнаяФорма</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>b68c15c4-4966-4f13-8912-2d479b65089a</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="32866fbe-f76d-442e-8341-a3c5ebcc004b">
+				<InternalInfo/>
+				<Properties>
+					<Name>СозданиеСвязанныхОбъектов</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>8f6770c2-654c-4cc7-8ed5-15b5b2e3109a</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>
