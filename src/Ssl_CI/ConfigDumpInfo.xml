@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.14">
 	<ConfigVersions>
-		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки" id="39b179d5-4148-4a70-9dac-ad3ee44f78ed" configVersion="f5b987b108638e9ec5cf1a9c0a56e062fa590537">
+		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки" id="39b179d5-4148-4a70-9dac-ad3ee44f78ed" configVersion="e0800c5201f772b9e8995a7a3b9c4b16b7431b92">
 			<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Attribute.SslCI_ДатаКоммита" id="0fe80f88-5858-4197-bc19-7cd16ec3aa12"/>
 			<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Attribute.ИмяОбъекта" id="11320d23-3870-40fb-a406-40cd4a8efda8"/>
 			<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.TabularSection.Команды" id="1591401e-8052-49ae-abf3-3411fb3240e4"/>
@@ -35,7 +35,7 @@
 		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Command.SslCI_ПереключитьВетку.CommandModule" id="354046ce-e515-4350-b4a7-30f08d9c71b4.2" configVersion="a3f599437fde9e585134ab5466a4ffd528f959ef"/>
 		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Command.SslCI_ПереключитьВеткуФайла.CommandModule" id="3a628c05-9eeb-4a40-ab9a-fb6f1ed25867.2" configVersion="0cf26c309f4bcfd4c4063b15e71bead4977c6dcd"/>
 		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.SslCI_ВыборФайлаИзРепозитория" id="91ac5fdd-1cb9-42f5-b76b-9a2398f10a68" configVersion="42c3be9d2904cf9a0c21c7a3e60081a9dc733d71"/>
-		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.SslCI_ВыборФайлаИзРепозитория.Form" id="91ac5fdd-1cb9-42f5-b76b-9a2398f10a68.0" configVersion="1931505369a435141c88599c40710308c14de512"/>
+		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.SslCI_ВыборФайлаИзРепозитория.Form" id="91ac5fdd-1cb9-42f5-b76b-9a2398f10a68.0" configVersion="6f0f0c4bd53d5084756a4c1d157aa3d0d10b714d"/>
 		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.SslCI_ИсторияКоммитов" id="67b3e58b-f794-4e32-956f-2c90ba5fa79b" configVersion="e820fccdd2a1eee35bf30c35d84a55aa531f2356"/>
 		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.SslCI_ИсторияКоммитов.Form" id="67b3e58b-f794-4e32-956f-2c90ba5fa79b.0" configVersion="0a8856d6acfe6aa3379fdb2ef99b90b7dec01d31"/>
 		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.SslCI_НастройкаВнешнегоРепозитория" id="b365f736-f589-4783-9e57-3f53a7ed7239" configVersion="f03f76e134fcb7fe99a3f3ef23993acb7b3c7cd9"/>
@@ -43,20 +43,20 @@
 		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.SslCI_ОписаниеОбновления" id="4906a70b-f015-478f-bfe1-a36544a1c584" configVersion="e3aab3c8bdab80890faa7ec5f7f79a6872e95860"/>
 		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.SslCI_ОписаниеОбновления.Form" id="4906a70b-f015-478f-bfe1-a36544a1c584.0" configVersion="cedf4f32ebd631fa5d103195192dbbbfd7ba0e81"/>
 		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.SslCI_ПереключениеВетки" id="71595c18-a0ea-4671-ab2a-ebc70ca64190" configVersion="7eadae355bd06c2f10d2cf38195061ea41abfc52"/>
-		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.SslCI_ПереключениеВетки.Form" id="71595c18-a0ea-4671-ab2a-ebc70ca64190.0" configVersion="1502f42d750c5606a2e195798923d2fdaa9d6d1b"/>
+		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.SslCI_ПереключениеВетки.Form" id="71595c18-a0ea-4671-ab2a-ebc70ca64190.0" configVersion="ad904ef9ab825e7872d04e618e8848292ee03b9f"/>
 		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.ФормаСписка" id="6b88dbbc-387b-463a-9ed6-961e8d0cf29e" configVersion="b3e348e28803e107f176761af942b21c365e8059"/>
 		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.ФормаСписка.Form" id="6b88dbbc-387b-463a-9ed6-961e8d0cf29e.0" configVersion="d370db89162d255f5662532307a9e7578c76782d"/>
 		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.ФормаЭлемента" id="f38d021e-f4c2-40e1-b922-8040628bacac" configVersion="48ee41d9ecd794568afb49ed1967f4fe78ddabe0"/>
-		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.ФормаЭлемента.Form" id="f38d021e-f4c2-40e1-b922-8040628bacac.0" configVersion="70803346195326f948655ba556e95c1695c68080"/>
+		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.ФормаЭлемента.Form" id="f38d021e-f4c2-40e1-b922-8040628bacac.0" configVersion="8d3dca9291df66cfea309c377949a78cacc00e14"/>
 		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Template.SslCI_ОписаниеОбновления" id="364810b2-9d1c-42bd-a9b0-6339e0eb11f5" configVersion="63d29f03a0609b0df5f8323a6cd47ab6895a5bf8"/>
 		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Template.SslCI_ОписаниеОбновления.Template" id="364810b2-9d1c-42bd-a9b0-6339e0eb11f5.0" configVersion="04081a7f659314d5f773e58236053096f0941346"/>
 		<Metadata name="Catalog.Пользователи" id="f0f63053-68f8-468e-92b5-912a7ee76c5d" configVersion="658d21804392d1237828ed6a24b1603ea28960bc"/>
 		<Metadata name="CommonModule.SslCI_НастройкаИнтеграцииСГитомПовтИсп" id="5609f21b-3da0-4cf6-88f2-898a7b4f1ed6" configVersion="800bb2ab2aa8c204fb81c819c79343c22a13e193"/>
 		<Metadata name="CommonModule.SslCI_НастройкаИнтеграцииСГитомПовтИсп.Module" id="5609f21b-3da0-4cf6-88f2-898a7b4f1ed6.0" configVersion="40dc285d0b00cc887d0efc5af9afc4516ee3171f"/>
 		<Metadata name="CommonModule.SslCI_РаботаСГитом" id="620e064c-16a6-468e-9311-f65800cb63f0" configVersion="99d09ecd55adce1ac17ba66d386aaa51b6cb5732"/>
-		<Metadata name="CommonModule.SslCI_РаботаСГитом.Module" id="620e064c-16a6-468e-9311-f65800cb63f0.0" configVersion="ede50705a5667ab169561be78fa54fdc2411e4ad"/>
+		<Metadata name="CommonModule.SslCI_РаботаСГитом.Module" id="620e064c-16a6-468e-9311-f65800cb63f0.0" configVersion="34a9da36efa46803a479626d8a51ce7f08000a87"/>
 		<Metadata name="CommonModule.SslCI_СлужебныйВызовСервера" id="e2cbf8e1-d2b3-401f-8263-ba68a6698e74" configVersion="16c52b05e35062d40326afba256d1829d1fae47d"/>
-		<Metadata name="CommonModule.SslCI_СлужебныйВызовСервера.Module" id="e2cbf8e1-d2b3-401f-8263-ba68a6698e74.0" configVersion="70b9a87f5b7760d15df8d893e6594a376b73eaea"/>
+		<Metadata name="CommonModule.SslCI_СлужебныйВызовСервера.Module" id="e2cbf8e1-d2b3-401f-8263-ba68a6698e74.0" configVersion="5ce5f56e13371b2c059af6708178392baee64d42"/>
 		<Metadata name="CommonModule.ОбщегоНазначения" id="ca85108d-1e20-4af7-8e94-5e6bf4710ced" configVersion="04fc97aec7418aeba3ccf66583a6178d803f8846"/>
 		<Metadata name="CommonModule.ОбщегоНазначения.Module" id="ca85108d-1e20-4af7-8e94-5e6bf4710ced.0" configVersion="bc4c61b7f2e39fd3822fde3d040682f3997e2790"/>
 		<Metadata name="CommonPicture.SslCI_Гит" id="5f3413c9-94a4-47c8-8062-eb9fa458a2ad" configVersion="8016230958d6effbd05944a38a9d0e8157a64e1e"/>

@@ -561,7 +561,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
-					<Group>FormNavigationPanelImportant</Group>
+					<Group>FormCommandBarImportant</Group>
 					<CommandParameterType>
 						<v8:Type>cfg:CatalogRef.ДополнительныеОтчетыИОбработки</v8:Type>
 					</CommandParameterType>
@@ -644,7 +644,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
-					<Group>FormNavigationPanelImportant</Group>
+					<Group>FormCommandBarImportant</Group>
 					<CommandParameterType>
 						<v8:Type>cfg:CatalogRef.ДополнительныеОтчетыИОбработки</v8:Type>
 					</CommandParameterType>

@@ -1655,6 +1655,42 @@ additional permissions:</v8:content>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
+	<CommandInterface>
+		<NavigationPanel>
+			<Item>
+				<Command>Catalog.ДополнительныеОтчетыИОбработки.Command.SslCI_ПереключитьВетку</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+			<Item>
+				<Command>Catalog.ДополнительныеОтчетыИОбработки.Command.SslCI_ПереключитьВеткуФайла</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+		</NavigationPanel>
+		<CommandBar>
+			<Item>
+				<Command>Catalog.ДополнительныеОтчетыИОбработки.Command.SslCI_ИсторияКоммитов</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+			<Item>
+				<Command>Catalog.ДополнительныеОтчетыИОбработки.Command.SslCI_НастройкаРепозитория</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+			<Item>
+				<Command>Catalog.ДополнительныеОтчетыИОбработки.Command.SslCI_АктуализацияСправочника</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+			<Item>
+				<Command>Catalog.ДополнительныеОтчетыИОбработки.Command.SslCI_ОбновитьФайл</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+		</CommandBar>
+	</CommandInterface>
 	<BaseForm version="2.14">
 		<AutoTitle>false</AutoTitle>
 		<VerticalScroll>useIfNecessary</VerticalScroll>
