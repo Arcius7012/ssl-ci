@@ -35,7 +35,7 @@
 		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Command.SslCI_ПереключитьВетку.CommandModule" id="354046ce-e515-4350-b4a7-30f08d9c71b4.2" configVersion="a3f599437fde9e585134ab5466a4ffd528f959ef"/>
 		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Command.SslCI_ПереключитьВеткуФайла.CommandModule" id="3a628c05-9eeb-4a40-ab9a-fb6f1ed25867.2" configVersion="0cf26c309f4bcfd4c4063b15e71bead4977c6dcd"/>
 		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.SslCI_ВыборФайлаИзРепозитория" id="91ac5fdd-1cb9-42f5-b76b-9a2398f10a68" configVersion="42c3be9d2904cf9a0c21c7a3e60081a9dc733d71"/>
-		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.SslCI_ВыборФайлаИзРепозитория.Form" id="91ac5fdd-1cb9-42f5-b76b-9a2398f10a68.0" configVersion="6f0f0c4bd53d5084756a4c1d157aa3d0d10b714d"/>
+		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.SslCI_ВыборФайлаИзРепозитория.Form" id="91ac5fdd-1cb9-42f5-b76b-9a2398f10a68.0" configVersion="1931505369a435141c88599c40710308c14de512"/>
 		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.SslCI_ИсторияКоммитов" id="67b3e58b-f794-4e32-956f-2c90ba5fa79b" configVersion="e820fccdd2a1eee35bf30c35d84a55aa531f2356"/>
 		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.SslCI_ИсторияКоммитов.Form" id="67b3e58b-f794-4e32-956f-2c90ba5fa79b.0" configVersion="0a8856d6acfe6aa3379fdb2ef99b90b7dec01d31"/>
 		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.SslCI_НастройкаВнешнегоРепозитория" id="b365f736-f589-4783-9e57-3f53a7ed7239" configVersion="f03f76e134fcb7fe99a3f3ef23993acb7b3c7cd9"/>
@@ -43,7 +43,7 @@
 		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.SslCI_ОписаниеОбновления" id="4906a70b-f015-478f-bfe1-a36544a1c584" configVersion="e3aab3c8bdab80890faa7ec5f7f79a6872e95860"/>
 		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.SslCI_ОписаниеОбновления.Form" id="4906a70b-f015-478f-bfe1-a36544a1c584.0" configVersion="cedf4f32ebd631fa5d103195192dbbbfd7ba0e81"/>
 		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.SslCI_ПереключениеВетки" id="71595c18-a0ea-4671-ab2a-ebc70ca64190" configVersion="7eadae355bd06c2f10d2cf38195061ea41abfc52"/>
-		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.SslCI_ПереключениеВетки.Form" id="71595c18-a0ea-4671-ab2a-ebc70ca64190.0" configVersion="ad904ef9ab825e7872d04e618e8848292ee03b9f"/>
+		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.SslCI_ПереключениеВетки.Form" id="71595c18-a0ea-4671-ab2a-ebc70ca64190.0" configVersion="1502f42d750c5606a2e195798923d2fdaa9d6d1b"/>
 		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.ФормаСписка" id="6b88dbbc-387b-463a-9ed6-961e8d0cf29e" configVersion="b3e348e28803e107f176761af942b21c365e8059"/>
 		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.ФормаСписка.Form" id="6b88dbbc-387b-463a-9ed6-961e8d0cf29e.0" configVersion="d370db89162d255f5662532307a9e7578c76782d"/>
 		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Form.ФормаЭлемента" id="f38d021e-f4c2-40e1-b922-8040628bacac" configVersion="48ee41d9ecd794568afb49ed1967f4fe78ddabe0"/>
@@ -77,7 +77,7 @@
 		<Metadata name="CommonPicture.SslCI_Форк.Picture" id="ca2a9499-759a-45ab-a8a1-adef879198b1.0" configVersion="cdc9a4071f2f1180ab12e7aaf4a25430151beb91"/>
 		<Metadata name="CommonPicture.ОбновитьФайлИзФайлаНаДиске" id="416bf25b-f94c-4888-873f-3fceec6f8229" configVersion="4a7502a3c01b3d724372f09aa5e68b4c5afd9d00"/>
 		<Metadata name="CommonPicture.ПиктограммыЭлементов" id="98b6629f-22cf-486d-8859-54a0d9fc218f" configVersion="9ac133a76a2c655679efdf2f8ae6094c38ac8869"/>
-		<Metadata name="Configuration.Ssl_CI" id="9be5f451-1d73-4f98-9cc1-8f8a77d9e328" configVersion="82ec97a78b928b531fa6eb498e2d6852a1671fc0"/>
+		<Metadata name="Configuration.Ssl_CI" id="9be5f451-1d73-4f98-9cc1-8f8a77d9e328" configVersion="527fea2eb8491912c3c7e36b64860833d7ee3ed1"/>
 		<Metadata name="Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок" id="fd303a5e-4674-4ded-ad83-0ce2f6040689" configVersion="55c37bbdb132cbc5e1594b6c83e453823a98ce1c">
 			<Metadata name="Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок.EnumValue.Отключена" id="a121ec78-bfaf-4009-ab32-ee0b50327c8e"/>
 			<Metadata name="Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок.EnumValue.РежимОтладки" id="b36095d8-c37e-473d-b9a1-2451da193e7d"/>

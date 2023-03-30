@@ -50,7 +50,7 @@
 				<v8:Value xsi:type="app:ApplicationUsePurpose">PlatformApplication</v8:Value>
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
-			<Vendor>Vitaly.Podymnikov</Vendor>
+			<Vendor>ООО Почтатех</Vendor>
 			<Version>1.0.2</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
@@ -58,13 +58,13 @@
 			<Copyright>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Vitaly.Podymnikov</v8:content>
+					<v8:content>ООО Почтатех</v8:content>
 				</v8:item>
 			</Copyright>
 			<VendorInformationAddress>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>https://github.com/Arcius7012</v8:content>
+					<v8:content>https://pochta.tech/</v8:content>
 				</v8:item>
 			</VendorInformationAddress>
 			<ConfigurationInformationAddress>
