@@ -94,7 +94,6 @@
 			<CommonModule>SslCI_НастройкаИнтеграцииСГитомПовтИсп</CommonModule>
 			<CommonModule>SslCI_РаботаСГитом</CommonModule>
 			<CommonModule>SslCI_СлужебныйВызовСервера</CommonModule>
-			<CommonModule>ОбщегоНазначения</CommonModule>
 			<Catalog>ДополнительныеОтчетыИОбработки</Catalog>
 			<Catalog>Пользователи</Catalog>
 			<Enum>ВариантыПубликацииДополнительныхОтчетовИОбработок</Enum>
