@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Folders</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Popup name="ПодменюПечать" id="10">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Печать</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Print</v8:content>
+					</v8:item>
+				</Title>
+				<Picture>
+					<xr:Ref>StdPicture.Print</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<ExtendedTooltip name="ПодменюПечатьРасширеннаяПодсказка" id="11"/>
+				<ChildItems>
+					<ButtonGroup name="ПодменюПечатьВажное" id="12">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Печать (Важное)</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Print (Important)</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ПодменюПечатьВажноеРасширеннаяПодсказка" id="13"/>
+					</ButtonGroup>
+					<ButtonGroup name="ПодменюПечатьОбычное" id="14">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Печать (Обычное)</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Print (Common)</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ПодменюПечатьОбычноеРасширеннаяПодсказка" id="15"/>
+					</ButtonGroup>
+					<ButtonGroup name="ПодменюПечатьСмТакже" id="16">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Печать (См. также)</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Printing (see also)</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ПодменюПечатьСмТакжеРасширеннаяПодсказка" id="17"/>
+					</ButtonGroup>
+				</ChildItems>
+			</Popup>
+			<Popup name="ПодменюЗаполнить" id="18">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Заполнить</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Fill</v8:content>
+					</v8:item>
+				</Title>
+				<Representation>Picture</Representation>
+				<ExtendedTooltip name="ПодменюЗаполнитьРасширеннаяПодсказка" id="19"/>
+				<ChildItems>
+					<ButtonGroup name="ПодменюЗаполнитьВажное" id="20">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Подменю заполнить важное</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Fill submenu important</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ПодменюЗаполнитьВажноеРасширеннаяПодсказка" id="21"/>
+					</ButtonGroup>
+					<ButtonGroup name="ПодменюЗаполнитьОбычное" id="22">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Подменю заполнить обычное</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Fill submenu see common</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ПодменюЗаполнитьОбычноеРасширеннаяПодсказка" id="23"/>
+					</ButtonGroup>
+					<ButtonGroup name="ПодменюЗаполнитьСмТакже" id="24">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Подменю заполнить см также</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Fill submenu see also</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ПодменюЗаполнитьСмТакжеРасширеннаяПодсказка" id="25"/>
+					</ButtonGroup>
+				</ChildItems>
+			</Popup>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnReadAtServer">ПриЧтенииНаСервере</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Родитель" id="7">
+			<DataPath>Объект.Parent</DataPath>
+			<SkipOnInput>true</SkipOnInput>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="РодительКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Наименование</v8:content>
+				</v8:item>
+			</Title>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.SslCI_Разработчики</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ПараметрыПодключаемыхКоманд" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Параметры подключаемых команды</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Plug-in settings commands</v8:content>
+				</v8:item>
+			</Title>
+			<Type/>
+		</Attribute>
+	</Attributes>
+</Form>

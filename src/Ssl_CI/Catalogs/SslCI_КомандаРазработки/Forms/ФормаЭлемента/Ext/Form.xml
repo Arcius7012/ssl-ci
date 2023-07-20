@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Popup name="ПодменюПечать" id="1">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Печать</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Print</v8:content>
+					</v8:item>
+				</Title>
+				<Picture>
+					<xr:Ref>StdPicture.Print</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<ExtendedTooltip name="ПодменюПечатьРасширеннаяПодсказка" id="2"/>
+				<ChildItems>
+					<ButtonGroup name="ПодменюПечатьВажное" id="3">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Печать (Важное)</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Print (Important)</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ПодменюПечатьВажноеРасширеннаяПодсказка" id="4"/>
+					</ButtonGroup>
+					<ButtonGroup name="ПодменюПечатьОбычное" id="5">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Печать (Обычное)</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Print (Common)</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ПодменюПечатьОбычноеРасширеннаяПодсказка" id="6"/>
+					</ButtonGroup>
+					<ButtonGroup name="ПодменюПечатьСмТакже" id="7">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Печать (См. также)</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Printing (see also)</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ПодменюПечатьСмТакжеРасширеннаяПодсказка" id="8"/>
+					</ButtonGroup>
+				</ChildItems>
+			</Popup>
+			<Popup name="ПодменюЗаполнить" id="9">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Заполнить</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Fill</v8:content>
+					</v8:item>
+				</Title>
+				<Representation>Picture</Representation>
+				<ExtendedTooltip name="ПодменюЗаполнитьРасширеннаяПодсказка" id="10"/>
+				<ChildItems>
+					<ButtonGroup name="ПодменюЗаполнитьВажное" id="11">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Подменю заполнить важное</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Fill submenu important</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ПодменюЗаполнитьВажноеРасширеннаяПодсказка" id="12"/>
+					</ButtonGroup>
+					<ButtonGroup name="ПодменюЗаполнитьОбычное" id="13">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Подменю заполнить обычное</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Fill submenu see common</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ПодменюЗаполнитьОбычноеРасширеннаяПодсказка" id="14"/>
+					</ButtonGroup>
+					<ButtonGroup name="ПодменюЗаполнитьСмТакже" id="15">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Подменю заполнить см также</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Fill submenu see also</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ПодменюЗаполнитьСмТакжеРасширеннаяПодсказка" id="16"/>
+					</ButtonGroup>
+				</ChildItems>
+			</Popup>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnReadAtServer">ПриЧтенииНаСервере</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаНаименованиеКод" id="17">
+			<Group>AlwaysHorizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаНаименованиеКодРасширеннаяПодсказка" id="18"/>
+			<ChildItems>
+				<InputField name="Наименование" id="19">
+					<DataPath>Объект.Description</DataPath>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="21"/>
+				</InputField>
+				<InputField name="Код" id="22">
+					<Visible>false</Visible>
+					<ReadOnly>true</ReadOnly>
+					<ContextMenu name="КодКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="24"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Pages name="Страницы" id="56">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="57"/>
+			<ChildItems>
+				<Page name="СтраницаРепозитории" id="58">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Репозитории</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="СтраницаРепозиторииРасширеннаяПодсказка" id="59"/>
+					<ChildItems>
+						<Table name="Репозитории" id="25">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.Репозитории</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="РепозиторииКонтекстноеМеню" id="26"/>
+							<AutoCommandBar name="РепозиторииКоманднаяПанель" id="27"/>
+							<ExtendedTooltip name="РепозиторииРасширеннаяПодсказка" id="28"/>
+							<SearchStringAddition name="РепозиторииСтрокаПоиска" id="29">
+								<AdditionSource>
+									<Item>Репозитории</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РепозиторииСтрокаПоискаКонтекстноеМеню" id="30"/>
+								<ExtendedTooltip name="РепозиторииСтрокаПоискаРасширеннаяПодсказка" id="31"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="РепозиторииСостояниеПросмотра" id="32">
+								<AdditionSource>
+									<Item>Репозитории</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РепозиторииСостояниеПросмотраКонтекстноеМеню" id="33"/>
+								<ExtendedTooltip name="РепозиторииСостояниеПросмотраРасширеннаяПодсказка" id="34"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="РепозиторииУправлениеПоиском" id="35">
+								<AdditionSource>
+									<Item>Репозитории</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="РепозиторииУправлениеПоискомКонтекстноеМеню" id="36"/>
+								<ExtendedTooltip name="РепозиторииУправлениеПоискомРасширеннаяПодсказка" id="37"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="BeforeAddRow">РепозиторииПередНачаломДобавления</Event>
+							</Events>
+							<ChildItems>
+								<LabelField name="РепозиторииНомерСтроки" id="38">
+									<DataPath>Объект.Репозитории.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РепозиторииНомерСтрокиКонтекстноеМеню" id="39"/>
+									<ExtendedTooltip name="РепозиторииНомерСтрокиРасширеннаяПодсказка" id="40"/>
+								</LabelField>
+								<InputField name="РепозиторииНазваниеРепозитория" id="41">
+									<DataPath>Объект.Репозитории.НазваниеРепозитория</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РепозиторииНазваниеРепозиторияКонтекстноеМеню" id="42"/>
+									<ExtendedTooltip name="РепозиторииНазваниеРепозиторияРасширеннаяПодсказка" id="43"/>
+								</InputField>
+								<InputField name="РепозиторииИдРепозитория" id="44">
+									<DataPath>Объект.Репозитории.ИдРепозитория</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РепозиторииИдРепозиторияКонтекстноеМеню" id="45"/>
+									<ExtendedTooltip name="РепозиторииИдРепозиторияРасширеннаяПодсказка" id="46"/>
+								</InputField>
+								<InputField name="РепозиторииПрефиксЗадачи" id="47">
+									<DataPath>Объект.Репозитории.ПрефиксЗадачи</DataPath>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>По префиксу будет определяться номер задачи</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>Balloon</ToolTipRepresentation>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РепозиторииПрефиксЗадачиКонтекстноеМеню" id="48"/>
+									<ExtendedTooltip name="РепозиторииПрефиксЗадачиРасширеннаяПодсказка" id="49"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ДанныеТаскТрекера" id="60">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Данные таск трекера (Опционально)</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Данные таск трекера</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ДанныеТаскТрекераРасширеннаяПодсказка" id="61"/>
+					<ChildItems>
+						<Button name="ЗаполнитьПоУмолчанию" id="68">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ЗаполнитьПоУмолчанию</CommandName>
+							<ExtendedTooltip name="ЗаполнитьПоУмолчаниюРасширеннаяПодсказка" id="69"/>
+						</Button>
+						<InputField name="СтрокаПоискаТрекер" id="50">
+							<DataPath>Объект.СтрокаПоискаТрекер</DataPath>
+							<ToolTipRepresentation>Button</ToolTipRepresentation>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<InputHint>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>jira.ru/rest/api/latest/issue</v8:content>
+								</v8:item>
+							</InputHint>
+							<ContextMenu name="СтрокаПоискаТрекерКонтекстноеМеню" id="51"/>
+							<ExtendedTooltip name="СтрокаПоискаТрекерРасширеннаяПодсказка" id="52"/>
+						</InputField>
+						<InputField name="ЛогинДоступаТрекер" id="62">
+							<DataPath>Объект.ЛогинДоступаТрекер</DataPath>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<ContextMenu name="ЛогинДоступаТрекерКонтекстноеМеню" id="63"/>
+							<ExtendedTooltip name="ЛогинДоступаТрекерРасширеннаяПодсказка" id="64"/>
+						</InputField>
+						<InputField name="ПарольДоступаТрекер" id="65">
+							<DataPath>Объект.ПарольДоступаТрекер</DataPath>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<ContextMenu name="ПарольДоступаТрекерКонтекстноеМеню" id="66"/>
+							<ExtendedTooltip name="ПарольДоступаТрекерРасширеннаяПодсказка" id="67"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.SslCI_КомандаРазработки</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ПараметрыПодключаемыхКоманд" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Параметры подключаемых команды</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Plug-in settings commands</v8:content>
+				</v8:item>
+			</Title>
+			<Type/>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ЗаполнитьПоУмолчанию" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить по умолчанию</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить по умолчанию</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.CreateInitialImage</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ЗаполнитьПоУмолчанию</Action>
+			<Representation>TextPicture</Representation>
+			<ModifiesSavedData>true</ModifiesSavedData>
+		</Command>
+	</Commands>
+</Form>

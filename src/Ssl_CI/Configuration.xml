@@ -51,7 +51,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>ООО Почтатех</Vendor>
-			<Version>1.0.2</Version>
+			<Version>1.0.3</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -77,7 +77,7 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
-			<Subsystem>SslCI_РаботаСГитом</Subsystem>
+			<Subsystem>SslCI_ИнтеграцияСГитом</Subsystem>
 			<StyleItem>РезультатУспехЦвет</StyleItem>
 			<StyleItem>ПоясняющийОшибкуТекст</StyleItem>
 			<StyleItem>ПоясняющийТекст</StyleItem>
@@ -85,20 +85,33 @@
 			<CommonPicture>SslCI_Гитлаб</CommonPicture>
 			<CommonPicture>SslCI_Деплой</CommonPicture>
 			<CommonPicture>SslCI_Коммит</CommonPicture>
+			<CommonPicture>SslCI_ПодсистемаГит</CommonPicture>
 			<CommonPicture>SslCI_ПуллРеквест</CommonPicture>
 			<CommonPicture>SslCI_Репозиторий</CommonPicture>
 			<CommonPicture>SslCI_Сравнение</CommonPicture>
 			<CommonPicture>SslCI_Форк</CommonPicture>
-			<CommonPicture>ПиктограммыЭлементов</CommonPicture>
 			<CommonPicture>ОбновитьФайлИзФайлаНаДиске</CommonPicture>
+			<CommonPicture>ПиктограммыЭлементов</CommonPicture>
+			<CommonPicture>ВыбратьВариантОтчета</CommonPicture>
+			<CommonPicture>СохранитьВариантОтчета</CommonPicture>
+			<CommonPicture>ЭлектронноеПисьмо</CommonPicture>
+			<Role>ПолныеПрава</Role>
+			<CommonModule>SslCI_ДанныеГита</CommonModule>
 			<CommonModule>SslCI_НастройкаИнтеграцииСГитомПовтИсп</CommonModule>
-			<CommonModule>SslCI_РаботаСГитом</CommonModule>
+			<CommonModule>SslCI_РаботаПоАпи</CommonModule>
 			<CommonModule>SslCI_СлужебныйВызовСервера</CommonModule>
+			<CommonModule>ВариантыОтчетовПереопределяемый</CommonModule>
+			<SettingsStorage>ХранилищеВариантовОтчетов</SettingsStorage>
+			<CommonCommand>SslCI_НастройкаИнтеграции</CommonCommand>
+			<CommonForm>SslCI_НастройкаИнтеграции</CommonForm>
+			<Catalog>SslCI_КомандаРазработки</Catalog>
+			<Catalog>SslCI_Разработчики</Catalog>
 			<Catalog>ДополнительныеОтчетыИОбработки</Catalog>
 			<Catalog>Пользователи</Catalog>
 			<Enum>ВариантыПубликацииДополнительныхОтчетовИОбработок</Enum>
 			<Enum>ВидыДополнительныхОтчетовИОбработок</Enum>
 			<Enum>СпособыВызоваДополнительныхОбработок</Enum>
+			<Report>SslCI_ОтчетПоКоммитам</Report>
 			<InformationRegister>БезопасноеХранилищеДанныхОбластейДанных</InformationRegister>
 			<InformationRegister>БезопасноеХранилищеДанных</InformationRegister>
 		</ChildObjects>

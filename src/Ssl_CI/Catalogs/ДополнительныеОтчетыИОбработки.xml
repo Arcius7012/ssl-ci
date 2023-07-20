@@ -516,7 +516,6 @@
 			<Form>ФормаСписка</Form>
 			<Form>SslCI_ИсторияКоммитов</Form>
 			<Form>SslCI_ВыборФайлаИзРепозитория</Form>
-			<Form>SslCI_НастройкаВнешнегоРепозитория</Form>
 			<Form>SslCI_ПереключениеВетки</Form>
 			<Form>SslCI_ОписаниеОбновления</Form>
 			<Template>SslCI_ОписаниеОбновления</Template>
@@ -571,32 +570,6 @@
 					<ToolTip/>
 					<Picture>
 						<xr:Ref>CommonPicture.SslCI_Форк</xr:Ref>
-						<xr:LoadTransparent>true</xr:LoadTransparent>
-					</Picture>
-					<Shortcut/>
-					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
-				</Properties>
-			</Command>
-			<Command uuid="ae72a5c1-b168-4300-9134-975a010657e7">
-				<Properties>
-					<Name>SslCI_НастройкаРепозитория</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Настройка репозитория</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Group>FormCommandBarImportant</Group>
-					<CommandParameterType>
-						<v8:Type>cfg:CatalogRef.ДополнительныеОтчетыИОбработки</v8:Type>
-					</CommandParameterType>
-					<ParameterUseMode>Multiple</ParameterUseMode>
-					<ModifiesData>false</ModifiesData>
-					<Representation>PictureAndText</Representation>
-					<ToolTip/>
-					<Picture>
-						<xr:Ref>CommonPicture.SslCI_Репозиторий</xr:Ref>
 						<xr:LoadTransparent>true</xr:LoadTransparent>
 					</Picture>
 					<Shortcut/>

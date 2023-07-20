@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Popup name="ПодменюПечать" id="1">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Печать</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Print</v8:content>
+					</v8:item>
+				</Title>
+				<Picture>
+					<xr:Ref>StdPicture.Print</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<ExtendedTooltip name="ПодменюПечатьРасширеннаяПодсказка" id="2"/>
+				<ChildItems>
+					<ButtonGroup name="ПодменюПечатьВажное" id="3">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Печать (Важное)</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Print (Important)</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ПодменюПечатьВажноеРасширеннаяПодсказка" id="4"/>
+					</ButtonGroup>
+					<ButtonGroup name="ПодменюПечатьОбычное" id="5">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Печать (Обычное)</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Print (Common)</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ПодменюПечатьОбычноеРасширеннаяПодсказка" id="6"/>
+					</ButtonGroup>
+					<ButtonGroup name="ПодменюПечатьСмТакже" id="7">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Печать (См. также)</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Printing (see also)</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ПодменюПечатьСмТакжеРасширеннаяПодсказка" id="8"/>
+					</ButtonGroup>
+				</ChildItems>
+			</Popup>
+			<Popup name="ПодменюЗаполнить" id="9">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Заполнить</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Fill</v8:content>
+					</v8:item>
+				</Title>
+				<Representation>Picture</Representation>
+				<ExtendedTooltip name="ПодменюЗаполнитьРасширеннаяПодсказка" id="10"/>
+				<ChildItems>
+					<ButtonGroup name="ПодменюЗаполнитьВажное" id="11">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Подменю заполнить важное</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Fill submenu important</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ПодменюЗаполнитьВажноеРасширеннаяПодсказка" id="12"/>
+					</ButtonGroup>
+					<ButtonGroup name="ПодменюЗаполнитьОбычное" id="13">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Подменю заполнить обычное</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Fill submenu see common</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ПодменюЗаполнитьОбычноеРасширеннаяПодсказка" id="14"/>
+					</ButtonGroup>
+					<ButtonGroup name="ПодменюЗаполнитьСмТакже" id="15">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Подменю заполнить см также</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Fill submenu see also</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ПодменюЗаполнитьСмТакжеРасширеннаяПодсказка" id="16"/>
+					</ButtonGroup>
+				</ChildItems>
+			</Popup>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnReadAtServer">ПриЧтенииНаСервере</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Родитель" id="44">
+			<DataPath>Объект.Parent</DataPath>
+			<SkipOnInput>true</SkipOnInput>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<ContextMenu name="РодительКонтекстноеМеню" id="45"/>
+			<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="46"/>
+		</InputField>
+		<UsualGroup name="ГруппаНаименованиеКод" id="17">
+			<Group>AlwaysHorizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаНаименованиеКодРасширеннаяПодсказка" id="18"/>
+			<ChildItems>
+				<InputField name="Наименование" id="19">
+					<DataPath>Объект.Description</DataPath>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="21"/>
+				</InputField>
+				<InputField name="Код" id="22">
+					<DataPath>Объект.Code</DataPath>
+					<Visible>false</Visible>
+					<ReadOnly>true</ReadOnly>
+					<ContextMenu name="КодКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="24"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="АдресаПочты" id="25">
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.АдресаПочты</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="АдресаПочтыКонтекстноеМеню" id="26"/>
+			<AutoCommandBar name="АдресаПочтыКоманднаяПанель" id="27"/>
+			<ExtendedTooltip name="АдресаПочтыРасширеннаяПодсказка" id="28"/>
+			<SearchStringAddition name="АдресаПочтыСтрокаПоиска" id="29">
+				<AdditionSource>
+					<Item>АдресаПочты</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="АдресаПочтыСтрокаПоискаКонтекстноеМеню" id="30"/>
+				<ExtendedTooltip name="АдресаПочтыСтрокаПоискаРасширеннаяПодсказка" id="31"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="АдресаПочтыСостояниеПросмотра" id="32">
+				<AdditionSource>
+					<Item>АдресаПочты</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="АдресаПочтыСостояниеПросмотраКонтекстноеМеню" id="33"/>
+				<ExtendedTooltip name="АдресаПочтыСостояниеПросмотраРасширеннаяПодсказка" id="34"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="АдресаПочтыУправлениеПоиском" id="35">
+				<AdditionSource>
+					<Item>АдресаПочты</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="АдресаПочтыУправлениеПоискомКонтекстноеМеню" id="36"/>
+				<ExtendedTooltip name="АдресаПочтыУправлениеПоискомРасширеннаяПодсказка" id="37"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="BeforeEditEnd">АдресаПочтыПередОкончаниемРедактирования</Event>
+				<Event name="OnStartEdit">АдресаПочтыПриНачалеРедактирования</Event>
+			</Events>
+			<ChildItems>
+				<LabelField name="АдресаПочтыНомерСтроки" id="38">
+					<DataPath>Объект.АдресаПочты.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="АдресаПочтыНомерСтрокиКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="АдресаПочтыНомерСтрокиРасширеннаяПодсказка" id="40"/>
+				</LabelField>
+				<InputField name="АдресаПочтыМыло" id="41">
+					<DataPath>Объект.АдресаПочты.Мыло</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="АдресаПочтыМылоКонтекстноеМеню" id="42"/>
+					<ExtendedTooltip name="АдресаПочтыМылоРасширеннаяПодсказка" id="43"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.SslCI_Разработчики</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ПараметрыПодключаемыхКоманд" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Параметры подключаемых команды</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Plug-in settings commands</v8:content>
+				</v8:item>
+			</Title>
+			<Type/>
+		</Attribute>
+	</Attributes>
+</Form>

@@ -21,17 +21,6 @@
 			<ContextMenu name="ВеткаКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="ВеткаРасширеннаяПодсказка" id="6"/>
 		</InputField>
-		<LabelDecoration name="ДекорацияИнфо" id="32">
-			<TextColor>style:ПоясняющийТекст</TextColor>
-			<Title formatted="false">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>История значимых коммитов (только изменения кода)</v8:content>
-				</v8:item>
-			</Title>
-			<ContextMenu name="ДекорацияИнфоКонтекстноеМеню" id="33"/>
-			<ExtendedTooltip name="ДекорацияИнфоРасширеннаяПодсказка" id="34"/>
-		</LabelDecoration>
 		<Table name="Коммиты" id="7">
 			<Representation>List</Representation>
 			<CommandBarLocation>None</CommandBarLocation>
