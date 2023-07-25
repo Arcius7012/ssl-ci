@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<CommandBarLocation>None</CommandBarLocation>
 	<CommandSet>
@@ -143,13 +143,13 @@
 							<DefaultButton>true</DefaultButton>
 							<DefaultItem>true</DefaultItem>
 							<CommandName>Catalog.ДополнительныеОтчетыИОбработки.Command.SslCI_АктуализацияСправочника</CommandName>
-							<DataPath>Items.Список.CurrentData.Ссылка</DataPath>
+							<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 							<ExtendedTooltip name="СправочникДополнительныеОтчетыИОбработкиSslCI_АктуализацияСправочникаРасширеннаяПодсказка" id="182"/>
 						</Button>
 						<Button name="СправочникДополнительныеОтчетыИОбработкиSslCI_ПереключитьВетку" id="183">
 							<Type>CommandBarButton</Type>
 							<CommandName>Catalog.ДополнительныеОтчетыИОбработки.Command.SslCI_ПереключитьВетку</CommandName>
-							<DataPath>Items.Список.CurrentData.Ссылка</DataPath>
+							<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 							<ExtendedTooltip name="СправочникДополнительныеОтчетыИОбработкиSslCI_ПереключитьВеткуРасширеннаяПодсказка" id="184"/>
 						</Button>
 						<Button name="Создать" id="27">
@@ -204,19 +204,19 @@
 						<Button name="СправочникДополнительныеОтчетыИОбработкиSslCI_ОбновитьФайл" id="152">
 							<Type>CommandBarButton</Type>
 							<CommandName>Catalog.ДополнительныеОтчетыИОбработки.Command.SslCI_ОбновитьФайл</CommandName>
-							<DataPath>Items.Список.CurrentData.Ссылка</DataPath>
+							<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 							<ExtendedTooltip name="СправочникДополнительныеОтчетыИОбработкиSslCI_ОбновитьФайлРасширеннаяПодсказка" id="153"/>
 						</Button>
 						<Button name="СправочникДополнительныеОтчетыИОбработкиSslCI_ПереключитьВеткуФайла" id="189">
 							<Type>CommandBarButton</Type>
 							<CommandName>Catalog.ДополнительныеОтчетыИОбработки.Command.SslCI_ПереключитьВеткуФайла</CommandName>
-							<DataPath>Items.Список.CurrentData.Ссылка</DataPath>
+							<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 							<ExtendedTooltip name="СправочникДополнительныеОтчетыИОбработкиSslCI_ПереключитьВеткуФайлаРасширеннаяПодсказка" id="190"/>
 						</Button>
 						<Button name="СправочникДополнительныеОтчетыИОбработкиSslCI_ИсторияКоммитов" id="154">
 							<Type>CommandBarButton</Type>
 							<CommandName>Catalog.ДополнительныеОтчетыИОбработки.Command.SslCI_ИсторияКоммитов</CommandName>
-							<DataPath>Items.Список.CurrentData.Ссылка</DataPath>
+							<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 							<ExtendedTooltip name="СправочникДополнительныеОтчетыИОбработкиSslCI_ИсторияКоммитовРасширеннаяПодсказка" id="155"/>
 						</Button>
 					</ChildItems>
@@ -437,19 +437,19 @@
 							<Button name="СписокКонтекстноеМенюСправочникДополнительныеОтчетыИОбработкиSslCI_ОбновитьФайл" id="173">
 								<Type>CommandBarButton</Type>
 								<CommandName>Catalog.ДополнительныеОтчетыИОбработки.Command.SslCI_ОбновитьФайл</CommandName>
-								<DataPath>Items.Список.CurrentData.Ссылка</DataPath>
+								<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 								<ExtendedTooltip name="СписокКонтекстноеМенюСправочникДополнительныеОтчетыИОбработкиSslCI_ОбновитьФайлРасширеннаяПодсказка" id="174"/>
 							</Button>
 							<Button name="СписокКонтекстноеМенюСправочникДополнительныеОтчетыИОбработкиSslCI_ПереключитьВеткуФайла" id="187">
 								<Type>CommandBarButton</Type>
 								<CommandName>Catalog.ДополнительныеОтчетыИОбработки.Command.SslCI_ПереключитьВеткуФайла</CommandName>
-								<DataPath>Items.Список.CurrentData.Ссылка</DataPath>
+								<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 								<ExtendedTooltip name="СписокКонтекстноеМенюСправочникДополнительныеОтчетыИОбработкиSslCI_ПереключитьВеткуФайлаРасширеннаяПодсказка" id="188"/>
 							</Button>
 							<Button name="СписокКонтекстноеМенюСправочникДополнительныеОтчетыИОбработкиSslCI_ИсторияКоммитов" id="175">
 								<Type>CommandBarButton</Type>
 								<CommandName>Catalog.ДополнительныеОтчетыИОбработки.Command.SslCI_ИсторияКоммитов</CommandName>
-								<DataPath>Items.Список.CurrentData.Ссылка</DataPath>
+								<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 								<ExtendedTooltip name="СписокКонтекстноеМенюСправочникДополнительныеОтчетыИОбработкиSslCI_ИсторияКоммитовРасширеннаяПодсказка" id="176"/>
 							</Button>
 						</ChildItems>
@@ -572,13 +572,13 @@
 			</Events>
 			<ChildItems>
 				<LabelField name="Наименование" id="4">
-					<DataPath>Список.Наименование</DataPath>
+					<DataPath>~Список.Наименование</DataPath>
 					<DefaultItem>true</DefaultItem>
 					<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
 					<ExtendedTooltip name="НаименованиеExtendedTooltip" id="43"/>
 				</LabelField>
 				<LabelField name="Вид" id="13">
-					<DataPath>Список.Вид</DataPath>
+					<DataPath>~Список.Вид</DataPath>
 					<UserVisible>
 						<xr:Common>false</xr:Common>
 					</UserVisible>
@@ -588,14 +588,14 @@
 					<ExtendedTooltip name="ВидExtendedTooltip" id="44"/>
 				</LabelField>
 				<LabelField name="Публикация" id="11">
-					<DataPath>Список.Публикация</DataPath>
+					<DataPath>~Список.Публикация</DataPath>
 					<Width>12</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<ContextMenu name="ПубликацияКонтекстноеМеню" id="12"/>
 					<ExtendedTooltip name="ПубликацияExtendedTooltip" id="45"/>
 				</LabelField>
 				<LabelField name="Версия" id="9">
-					<DataPath>Список.Версия</DataPath>
+					<DataPath>~Список.Версия</DataPath>
 					<Visible>false</Visible>
 					<Width>7</Width>
 					<HorizontalStretch>false</HorizontalStretch>
@@ -603,7 +603,7 @@
 					<ExtendedTooltip name="ВерсияExtendedTooltip" id="46"/>
 				</LabelField>
 				<LabelField name="Ответственный" id="7">
-					<DataPath>Список.Ответственный</DataPath>
+					<DataPath>~Список.Ответственный</DataPath>
 					<UserVisible>
 						<xr:Common>false</xr:Common>
 					</UserVisible>
@@ -611,7 +611,7 @@
 					<ExtendedTooltip name="ОтветственныйExtendedTooltip" id="47"/>
 				</LabelField>
 				<LabelField name="ИмяОбъекта" id="15">
-					<DataPath>Список.ИмяОбъекта</DataPath>
+					<DataPath>~Список.ИмяОбъекта</DataPath>
 					<Visible>false</Visible>
 					<UserVisible>
 						<xr:Common>false</xr:Common>
@@ -620,38 +620,38 @@
 					<ExtendedTooltip name="ИмяОбъектаExtendedTooltip" id="48"/>
 				</LabelField>
 				<LabelField name="SslCI_АдресВРепозитории" id="135">
-					<DataPath>Список.SslCI_АдресВРепозитории</DataPath>
+					<DataPath>~Список.SslCI_АдресВРепозитории</DataPath>
 					<ContextMenu name="SslCI_АдресВРепозиторииКонтекстноеМеню" id="136"/>
 					<ExtendedTooltip name="SslCI_АдресВРепозиторииРасширеннаяПодсказка" id="137"/>
 				</LabelField>
 				<LabelField name="SslCI_ИмяВетки" id="141">
-					<DataPath>Список.SslCI_ИмяВетки</DataPath>
+					<DataPath>~Список.SslCI_ИмяВетки</DataPath>
 					<ContextMenu name="SslCI_ИмяВеткиКонтекстноеМеню" id="142"/>
 					<ExtendedTooltip name="SslCI_ИмяВеткиРасширеннаяПодсказка" id="143"/>
 				</LabelField>
 				<LabelField name="SslCI_АвторКоммита" id="138">
-					<DataPath>Список.SslCI_АвторКоммита</DataPath>
+					<DataPath>~Список.SslCI_АвторКоммита</DataPath>
 					<ContextMenu name="SslCI_АвторКоммитаКонтекстноеМеню" id="139"/>
 					<ExtendedTooltip name="SslCI_АвторКоммитаРасширеннаяПодсказка" id="140"/>
 				</LabelField>
 				<LabelField name="SslCI_ДатаКоммита" id="156">
-					<DataPath>Список.SslCI_ДатаКоммита</DataPath>
+					<DataPath>~Список.SslCI_ДатаКоммита</DataPath>
 					<ContextMenu name="SslCI_ДатаКоммитаКонтекстноеМеню" id="157"/>
 					<ExtendedTooltip name="SslCI_ДатаКоммитаРасширеннаяПодсказка" id="158"/>
 				</LabelField>
 				<LabelField name="SslCI_СообщениеКоммита" id="144">
-					<DataPath>Список.SslCI_СообщениеКоммита</DataPath>
+					<DataPath>~Список.SslCI_СообщениеКоммита</DataPath>
 					<ContextMenu name="SslCI_СообщениеКоммитаКонтекстноеМеню" id="145"/>
 					<ExtendedTooltip name="SslCI_СообщениеКоммитаРасширеннаяПодсказка" id="146"/>
 				</LabelField>
 				<CheckBoxField name="SslCI_НеОбновлятьАвтоматически" id="147">
-					<DataPath>Список.SslCI_НеОбновлятьАвтоматически</DataPath>
+					<DataPath>~Список.SslCI_НеОбновлятьАвтоматически</DataPath>
 					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="SslCI_НеОбновлятьАвтоматическиКонтекстноеМеню" id="148"/>
 					<ExtendedTooltip name="SslCI_НеОбновлятьАвтоматическиРасширеннаяПодсказка" id="149"/>
 				</CheckBoxField>
 				<LabelField name="SslCI_ЗадачаВТаскТрекере" id="159">
-					<DataPath>Список.SslCI_ЗадачаВТаскТрекере</DataPath>
+					<DataPath>~Список.SslCI_ЗадачаВТаскТрекере</DataPath>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -663,7 +663,7 @@
 					<ExtendedTooltip name="SslCI_ЗадачаВТаскТрекереРасширеннаяПодсказка" id="161"/>
 				</LabelField>
 				<LabelField name="SslCI_Коммит" id="162">
-					<DataPath>Список.SslCI_Коммит</DataPath>
+					<DataPath>~Список.SslCI_Коммит</DataPath>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -675,7 +675,7 @@
 					<ExtendedTooltip name="SslCI_КоммитРасширеннаяПодсказка" id="164"/>
 				</LabelField>
 				<LabelField name="Ссылка" id="49">
-					<DataPath>Список.Ссылка</DataPath>
+					<DataPath>~Список.Ссылка</DataPath>
 					<UserVisible>
 						<xr:Common>false</xr:Common>
 					</UserVisible>
@@ -692,17 +692,17 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<UseAlways>
-				<Field>Список.SslCI_ИДКоммита</Field>
-				<Field>Список.SslCI_СообщениеКоммита</Field>
-				<Field>Список.ИмяОбъекта</Field>
-				<Field>Список.ИмяФайла</Field>
-				<Field>Список.Наименование</Field>
-				<Field>Список.ПометкаУдаления</Field>
-				<Field>Список.Публикация</Field>
-				<Field>Список.Родитель</Field>
-				<Field>Список.Ссылка</Field>
-				<Field>Список.ЭтоГруппа</Field>
-				<Field>Список.ЭтоОтчет</Field>
+				<Field>~Список.SslCI_ИДКоммита</Field>
+				<Field>~Список.SslCI_СообщениеКоммита</Field>
+				<Field>~Список.ИмяОбъекта</Field>
+				<Field>~Список.ИмяФайла</Field>
+				<Field>~Список.Наименование</Field>
+				<Field>~Список.ПометкаУдаления</Field>
+				<Field>~Список.Публикация</Field>
+				<Field>~Список.Родитель</Field>
+				<Field>~Список.Ссылка</Field>
+				<Field>~Список.ЭтоГруппа</Field>
+				<Field>~Список.ЭтоОтчет</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
@@ -792,7 +792,7 @@
 			<Representation>TextPicture</Representation>
 		</Command>
 	</Commands>
-	<BaseForm version="2.14">
+	<BaseForm version="2.16">
 		<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 		<CommandBarLocation>None</CommandBarLocation>
 		<CommandSet>
@@ -1261,13 +1261,13 @@
 				</SearchControlAddition>
 				<ChildItems>
 					<LabelField name="Наименование" id="4">
-						<DataPath>Список.Description</DataPath>
+						<DataPath>~Список.Description~Список.Наименование</DataPath>
 						<DefaultItem>true</DefaultItem>
 						<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
 						<ExtendedTooltip name="НаименованиеExtendedTooltip" id="43"/>
 					</LabelField>
 					<LabelField name="Вид" id="13">
-						<DataPath>Список.Вид</DataPath>
+						<DataPath>~Список.Вид</DataPath>
 						<UserVisible>
 							<xr:Common>false</xr:Common>
 						</UserVisible>
@@ -1277,21 +1277,21 @@
 						<ExtendedTooltip name="ВидExtendedTooltip" id="44"/>
 					</LabelField>
 					<LabelField name="Публикация" id="11">
-						<DataPath>Список.Публикация</DataPath>
+						<DataPath>~Список.Публикация</DataPath>
 						<Width>12</Width>
 						<HorizontalStretch>false</HorizontalStretch>
 						<ContextMenu name="ПубликацияКонтекстноеМеню" id="12"/>
 						<ExtendedTooltip name="ПубликацияExtendedTooltip" id="45"/>
 					</LabelField>
 					<LabelField name="Версия" id="9">
-						<DataPath>Список.Версия</DataPath>
+						<DataPath>~Список.Версия</DataPath>
 						<Width>7</Width>
 						<HorizontalStretch>false</HorizontalStretch>
 						<ContextMenu name="ВерсияКонтекстноеМеню" id="10"/>
 						<ExtendedTooltip name="ВерсияExtendedTooltip" id="46"/>
 					</LabelField>
 					<LabelField name="Ответственный" id="7">
-						<DataPath>Список.Ответственный</DataPath>
+						<DataPath>~Список.Ответственный</DataPath>
 						<UserVisible>
 							<xr:Common>false</xr:Common>
 						</UserVisible>
@@ -1299,7 +1299,7 @@
 						<ExtendedTooltip name="ОтветственныйExtendedTooltip" id="47"/>
 					</LabelField>
 					<LabelField name="ИмяОбъекта" id="15">
-						<DataPath>Список.ИмяОбъекта</DataPath>
+						<DataPath>~Список.ИмяОбъекта</DataPath>
 						<UserVisible>
 							<xr:Common>false</xr:Common>
 						</UserVisible>
@@ -1307,7 +1307,7 @@
 						<ExtendedTooltip name="ИмяОбъектаExtendedTooltip" id="48"/>
 					</LabelField>
 					<LabelField name="Ссылка" id="49">
-						<DataPath>Список.Ref</DataPath>
+						<DataPath>~Список.Ref~Список.Ссылка</DataPath>
 						<UserVisible>
 							<xr:Common>false</xr:Common>
 						</UserVisible>
@@ -1324,14 +1324,14 @@
 				</Type>
 				<MainAttribute>true</MainAttribute>
 				<UseAlways>
-					<Field>Список.DeletionMark</Field>
-					<Field>Список.Description</Field>
-					<Field>Список.IsFolder</Field>
-					<Field>Список.Ref</Field>
-					<Field>Список.ИмяОбъекта</Field>
-					<Field>Список.ИмяФайла</Field>
-					<Field>Список.Публикация</Field>
-					<Field>Список.ЭтоОтчет</Field>
+					<Field>~Список.DeletionMark~Список.ПометкаУдаления</Field>
+					<Field>~Список.Description~Список.Наименование</Field>
+					<Field>~Список.IsFolder~Список.ЭтоГруппа</Field>
+					<Field>~Список.Ref~Список.Ссылка</Field>
+					<Field>~Список.ИмяОбъекта</Field>
+					<Field>~Список.ИмяФайла</Field>
+					<Field>~Список.Публикация</Field>
+					<Field>~Список.ЭтоОтчет</Field>
 				</UseAlways>
 				<Settings xsi:type="DynamicList">
 					<ManualQuery>true</ManualQuery>
